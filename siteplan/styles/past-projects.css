@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #F4E1C1;
+}
+
+header {
+    background-color: #C19A6B;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #8B5E3B;
+    color: white;
+    border: none;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #8B5E3B;
+}
