@@ -18,22 +18,10 @@ nav a {
     border: none;
     text-decoration: none;
 }
-
-.please-container {
-    font-size: 24px;
-    padding: 20px;
+img{
+    height: 200px;
+    width: 200px;
 }
-
-.please-container p:nth-child(odd) {
-    font-weight: bold;
-    color: #8B5E3B;
-}
-
-.please-container p:nth-child(even) {
-    font-style: italic;
-    color: #C19A6B;
-}
-
 footer{
     background-color: #C19A6B;
     padding: 1rem;
